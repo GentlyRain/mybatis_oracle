@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!-- 配置环境 -->
+    <environments default="oracle">
+        <!-- 配置oracle环境 -->
+        <environment id="oracle">
+            <!-- 配置事务类型 -->
+            <transactionManager type="JDBC"></transactionManager>
+            <!-- 配置数据源（连接池） -->
+            <dataSource type="POOLED">
+                <!-- 配置数据库的四个基本信息 -->
+                <property name="driver" value="oracle.jdbc.OracleDriver"/>
+                <property name="url" value="jdbc:oracle:thin:@localhost:1521:zbj"/>     <!-- zbj：服务名 -->
+                <property name="username" value="scott"/>
+                <property name="password" value="xia0yu1994"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 指定映射配置文件的位置 -->
+    <mappers>
+        <!-- IEmpDao.xml的全包名必须与IEmpDao的全包名一致 -->
+        <mapper resource="com/benjamin/dao/IEmpDao.xml"></mapper>
+    </mappers>
+</configuration>
+
