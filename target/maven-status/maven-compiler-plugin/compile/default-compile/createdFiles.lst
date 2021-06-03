@@ -1,2 +1,4 @@
-com\benjamin\domain\Emp.class
 com\benjamin\dao\IEmpDao.class
+com\benjamin\domain\Dept.class
+com\benjamin\domain\Emp.class
+com\benjamin\dao\IDeptDao.class

@@ -12,3 +12,79 @@
 2021-06-03 00:14:07,935 1678   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@76a82f33]
 2021-06-03 00:14:07,936 1679   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@76a82f33]
 2021-06-03 00:14:07,936 1679   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1990733619 to pool.
+2021-06-03 21:14:39,231 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-03 21:14:39,272 41     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 21:14:39,272 41     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 21:14:39,272 41     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 21:14:39,272 41     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 21:14:39,547 316    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-03 21:14:41,362 2131   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1990733619.
+2021-06-03 21:14:41,362 2131   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@76a82f33]
+2021-06-03 21:14:41,365 2134   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - ==>  Preparing: SELECT * FROM EMP
+2021-06-03 21:14:41,510 2279   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - ==> Parameters: 
+2021-06-03 21:14:41,718 2487   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - <==      Total: 14
+2021-06-03 21:14:41,721 2490   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@76a82f33]
+2021-06-03 21:14:41,721 2490   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@76a82f33]
+2021-06-03 21:14:41,721 2490   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1990733619 to pool.
+2021-06-03 22:49:51,667 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-03 22:49:51,698 31     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 22:49:51,698 31     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 22:49:51,698 31     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 22:49:51,698 31     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 22:49:51,958 291    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-03 22:49:53,636 1969   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1958592872.
+2021-06-03 22:49:53,636 1969   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@74bdc168]
+2021-06-03 22:49:53,641 1974   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - ==>  Preparing: SELECT * FROM EMP
+2021-06-03 22:49:53,809 2142   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - ==> Parameters: 
+2021-06-03 22:49:53,909 2242   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - <==      Total: 14
+2021-06-03 22:52:14,758 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-03 22:52:14,783 25     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 22:52:14,784 26     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 22:52:14,784 26     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 22:52:14,784 26     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 22:52:14,902 144    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-03 22:52:16,202 1444   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1629454900.
+2021-06-03 22:52:16,203 1445   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@611f8234]
+2021-06-03 22:52:16,208 1450   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - ==>  Preparing: SELECT * FROM EMP
+2021-06-03 22:52:16,386 1628   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - ==> Parameters: 
+2021-06-03 22:52:16,476 1718   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - <==      Total: 14
+2021-06-03 22:52:16,477 1719   [           main] DEBUG in.dao.IDeptDao.selectAllDepts  - ==>  Preparing: SELECT * FROM DEPT
+2021-06-03 22:52:16,478 1720   [           main] DEBUG in.dao.IDeptDao.selectAllDepts  - ==> Parameters: 
+2021-06-03 22:52:16,480 1722   [           main] DEBUG in.dao.IDeptDao.selectAllDepts  - <==      Total: 4
+2021-06-03 22:52:16,480 1722   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@611f8234]
+2021-06-03 22:52:16,482 1724   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@611f8234]
+2021-06-03 22:52:16,482 1724   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1629454900 to pool.
+2021-06-03 22:53:42,094 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-03 22:53:42,123 29     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 22:53:42,124 30     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 22:53:42,124 30     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 22:53:42,124 30     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 22:53:42,239 145    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-03 22:53:43,701 1607   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1629454900.
+2021-06-03 22:53:43,702 1608   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@611f8234]
+2021-06-03 22:53:43,705 1611   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - ==>  Preparing: SELECT * FROM EMP
+2021-06-03 22:53:43,867 1773   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - ==> Parameters: 
+2021-06-03 22:53:43,958 1864   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - <==      Total: 14
+2021-06-03 22:53:43,960 1866   [           main] DEBUG in.dao.IDeptDao.selectAllDepts  - ==>  Preparing: SELECT * FROM DEPT
+2021-06-03 22:53:43,960 1866   [           main] DEBUG in.dao.IDeptDao.selectAllDepts  - ==> Parameters: 
+2021-06-03 22:53:43,962 1868   [           main] DEBUG in.dao.IDeptDao.selectAllDepts  - <==      Total: 4
+2021-06-03 22:53:43,962 1868   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@611f8234]
+2021-06-03 22:53:43,963 1869   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@611f8234]
+2021-06-03 22:53:43,963 1869   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1629454900 to pool.
+2021-06-03 22:55:26,808 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-03 22:55:26,832 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 22:55:26,833 25     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 22:55:26,833 25     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 22:55:26,833 25     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-03 22:55:26,939 131    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-03 22:55:28,433 1625   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1629454900.
+2021-06-03 22:55:28,433 1625   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@611f8234]
+2021-06-03 22:55:28,439 1631   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - ==>  Preparing: SELECT * FROM EMP
+2021-06-03 22:55:28,647 1839   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - ==> Parameters: 
+2021-06-03 22:55:28,737 1929   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - <==      Total: 14
+2021-06-03 22:55:28,739 1931   [           main] DEBUG in.dao.IDeptDao.selectAllDepts  - ==>  Preparing: SELECT * FROM DEPT
+2021-06-03 22:55:28,739 1931   [           main] DEBUG in.dao.IDeptDao.selectAllDepts  - ==> Parameters: 
+2021-06-03 22:55:28,741 1933   [           main] DEBUG in.dao.IDeptDao.selectAllDepts  - <==      Total: 4
+2021-06-03 22:55:28,742 1934   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@611f8234]
+2021-06-03 22:55:28,742 1934   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@611f8234]
+2021-06-03 22:55:28,742 1934   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1629454900 to pool.

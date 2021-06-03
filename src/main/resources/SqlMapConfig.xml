@@ -25,6 +25,9 @@
     <mappers>
         <!-- IEmpDao.xml的全包名必须与IEmpDao的全包名一致 -->
         <mapper resource="com/benjamin/dao/IEmpDao.xml"></mapper>
+
+        <!-- IDeptDao.xml的全包名必须与IDeptDao的全包名一致 -->
+        <mapper resource="com/benjamin/dao/IDeptDao.xml"></mapper>
     </mappers>
 </configuration>
 
