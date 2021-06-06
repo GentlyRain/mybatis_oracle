@@ -4,7 +4,21 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.benjamin.dao.IEmpDao">
+
+    <!-- 查询所有雇员 -->
     <select id="selectAllEmps" resultType="com.benjamin.domain.Emp">
         SELECT * FROM EMP
+    </select>
+
+    <!-- 根据员工编号查找 -->
+    <select id="selectEmpsByEmpNo" parameterType="java.lang.Integer" resultType="com.benjamin.domain.Emp">
+        SELECT * FROM EMP
+        WHERE EMPNO = #{EMPNO}
+    </select>
+
+    <!-- 根据名称查找（模糊查询） -->
+    <select id="selectEmpsByEName" parameterType="java.lang.String" resultType="com.benjamin.domain.Emp">
+        SELECT * FROM EMP
+        WHERE ENAME LIKE #{ENAME}
     </select>
 </mapper>
