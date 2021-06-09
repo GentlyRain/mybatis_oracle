@@ -2,8 +2,11 @@ package com.benjamin.test;
 
 import com.benjamin.dao.IDeptDao;
 import com.benjamin.dao.IEmpDao;
+import com.benjamin.dao.IPresidentDao;
 import com.benjamin.domain.Dept;
 import com.benjamin.domain.Emp;
+import com.benjamin.domain.President;
+import com.benjamin.utils.DateUtils;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -21,6 +24,7 @@ public class OracleTest {
     private InputStream in;
     private SqlSession session;
     private IEmpDao empDao;
+    private IPresidentDao presidentDao;
 
     @Before
     public void init() throws IOException {
@@ -37,6 +41,7 @@ public class OracleTest {
 
         // 4.获取dao代理对象
         empDao = session.getMapper(IEmpDao.class);
+        presidentDao = session.getMapper(IPresidentDao.class);
     }
 
     @After
@@ -133,6 +138,41 @@ public class OracleTest {
 
         for (Emp emp : empList) {
             System.out.println(emp);
+        }
+    }
+
+
+    // -----------------------------------------------------------------------------
+
+
+    /**
+     * 添加一条记录
+     */
+    @Test
+    public void testInsertPresident() {
+
+        President president = new President();
+        president.setId(1);
+        president.setName("Donald John Trump");
+        president.setGender("male");
+        president.setBrithday("1946-06-14");
+        president.setAge(74);
+        president.setTerm("2017.01.20~2021.01.20");
+        president.setParty("Republican Party");
+
+        presidentDao.insertPresident(president);
+    }
+
+
+    /**
+     * 获取所有记录
+     */
+    @Test
+    public void testGetAllPresidents() {
+
+        List<President> presidentList = presidentDao.getAllPresidents();
+        for (President president : presidentList) {
+            System.out.println(president);
         }
     }
 }

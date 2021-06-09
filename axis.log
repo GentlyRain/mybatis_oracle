@@ -130,3 +130,318 @@
 2021-06-06 14:05:37,587 1685   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
 2021-06-06 14:05:37,587 1685   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
 2021-06-06 14:05:37,587 1685   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1510087865 to pool.
+2021-06-08 00:35:14,179 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-08 00:35:14,332 153    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:35:14,332 153    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:35:14,332 153    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:35:14,332 153    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:35:14,714 535    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 00:35:16,087 1908   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 748975217.
+2021-06-08 00:35:16,087 1908   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@2ca47471]
+2021-06-08 00:35:16,091 1912   [           main] DEBUG .IPresidentDao.insertPresident  - ==>  Preparing: INSERT INTO T_USA_PRESIDENT (NAME, GENDER, AGE, BRITHDAY, TERM, PARTY) VALUES ()
+2021-06-08 00:35:16,229 2050   [           main] DEBUG .IPresidentDao.insertPresident  - ==> Parameters: 
+2021-06-08 00:35:16,247 2068   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@2ca47471]
+2021-06-08 00:35:16,248 2069   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@2ca47471]
+2021-06-08 00:35:16,249 2070   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@2ca47471]
+2021-06-08 00:35:16,249 2070   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 748975217 to pool.
+2021-06-08 00:36:46,353 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-08 00:36:46,377 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:36:46,377 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:36:46,377 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:36:46,377 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:36:46,493 140    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 00:36:47,832 1479   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1510087865.
+2021-06-08 00:36:47,832 1479   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:36:47,836 1483   [           main] DEBUG .IPresidentDao.insertPresident  - ==>  Preparing: INSERT INTO T_USA_PRESIDENT (NAME, GENDER, AGE, BRITHDAY, TERM, PARTY) VALUES (?, ?, ?, ?, ?, ?)
+2021-06-08 00:36:48,034 1681   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:36:48,035 1682   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:36:48,037 1684   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:36:48,037 1684   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1510087865 to pool.
+2021-06-08 00:40:15,391 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-08 00:40:15,419 28     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:40:15,419 28     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:40:15,419 28     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:40:15,420 29     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:40:15,576 185    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 00:40:16,737 1346   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 260638966.
+2021-06-08 00:40:16,738 1347   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@f8908f6]
+2021-06-08 00:40:16,743 1352   [           main] DEBUG .dao.IEmpDao.selectEmpsByEName  - ==>  Preparing: SELECT * FROM EMP WHERE ENAME LIKE ?
+2021-06-08 00:40:16,912 1521   [           main] DEBUG .dao.IEmpDao.selectEmpsByEName  - ==> Parameters: %S%(String)
+2021-06-08 00:40:17,046 1655   [           main] DEBUG .dao.IEmpDao.selectEmpsByEName  - <==      Total: 5
+2021-06-08 00:40:17,053 1662   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@f8908f6]
+2021-06-08 00:40:17,054 1663   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@f8908f6]
+2021-06-08 00:40:17,054 1663   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 260638966 to pool.
+2021-06-08 00:40:17,064 1673   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:40:17,064 1673   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:40:17,064 1673   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:40:17,064 1673   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:40:17,084 1693   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 00:40:17,103 1712   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1386677799.
+2021-06-08 00:40:17,103 1712   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@52a70627]
+2021-06-08 00:40:17,104 1713   [           main] DEBUG .dao.IEmpDao.selectEmpsByEmpNo  - ==>  Preparing: SELECT * FROM EMP WHERE EMPNO = ?
+2021-06-08 00:40:17,106 1715   [           main] DEBUG .dao.IEmpDao.selectEmpsByEmpNo  - ==> Parameters: 7654(Integer)
+2021-06-08 00:40:17,125 1734   [           main] DEBUG .dao.IEmpDao.selectEmpsByEmpNo  - <==      Total: 1
+2021-06-08 00:40:17,126 1735   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@52a70627]
+2021-06-08 00:40:17,126 1735   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@52a70627]
+2021-06-08 00:40:17,127 1736   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1386677799 to pool.
+2021-06-08 00:40:17,141 1750   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:40:17,142 1751   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:40:17,142 1751   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:40:17,142 1751   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:40:17,162 1771   [      Finalizer] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:40:17,180 1789   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 00:40:17,199 1808   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 653880197.
+2021-06-08 00:40:17,199 1808   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@26f96b85]
+2021-06-08 00:40:17,200 1809   [           main] DEBUG .IPresidentDao.insertPresident  - ==>  Preparing: INSERT INTO T_USA_PRESIDENT (name, gender, age, brithday, term, party) VALUES (?, ?, ?, ?, ?, ?)
+2021-06-08 00:40:17,201 1810   [           main] DEBUG .IPresidentDao.insertPresident  - ==> Parameters: Donald John Trump(String), male(String), 74(Integer), 1946-06-14 00:00:00.0(Timestamp), 2017.01.20~2021.01.20(String), Republican Party(String)
+2021-06-08 00:40:17,396 2005   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@26f96b85]
+2021-06-08 00:40:17,397 2006   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@26f96b85]
+2021-06-08 00:40:17,397 2006   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@26f96b85]
+2021-06-08 00:40:17,400 2009   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 653880197 to pool.
+2021-06-08 00:40:17,410 2019   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:40:17,410 2019   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:40:17,410 2019   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:40:17,411 2020   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:40:17,426 2035   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 00:40:17,463 2072   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1557534595.
+2021-06-08 00:40:17,463 2072   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5cd61783]
+2021-06-08 00:40:17,463 2072   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - ==>  Preparing: SELECT * FROM EMP
+2021-06-08 00:40:17,464 2073   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - ==> Parameters: 
+2021-06-08 00:40:17,473 2082   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - <==      Total: 14
+2021-06-08 00:40:17,475 2084   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@5cd61783]
+2021-06-08 00:40:17,475 2084   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5cd61783]
+2021-06-08 00:40:17,475 2084   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1557534595 to pool.
+2021-06-08 00:42:02,870 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-08 00:42:02,895 25     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:02,895 25     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:02,895 25     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:02,895 25     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:03,009 139    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 00:42:04,137 1267   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 260638966.
+2021-06-08 00:42:04,137 1267   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@f8908f6]
+2021-06-08 00:42:04,141 1271   [           main] DEBUG .dao.IEmpDao.selectEmpsByEName  - ==>  Preparing: SELECT * FROM EMP WHERE ENAME LIKE ?
+2021-06-08 00:42:04,283 1413   [           main] DEBUG .dao.IEmpDao.selectEmpsByEName  - ==> Parameters: %S%(String)
+2021-06-08 00:42:04,397 1527   [           main] DEBUG .dao.IEmpDao.selectEmpsByEName  - <==      Total: 5
+2021-06-08 00:42:04,401 1531   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@f8908f6]
+2021-06-08 00:42:04,402 1532   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@f8908f6]
+2021-06-08 00:42:04,402 1532   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 260638966 to pool.
+2021-06-08 00:42:04,419 1549   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:04,419 1549   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:04,420 1550   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:04,421 1551   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:04,461 1591   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 00:42:04,481 1611   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1386677799.
+2021-06-08 00:42:04,481 1611   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@52a70627]
+2021-06-08 00:42:04,482 1612   [           main] DEBUG .dao.IEmpDao.selectEmpsByEmpNo  - ==>  Preparing: SELECT * FROM EMP WHERE EMPNO = ?
+2021-06-08 00:42:04,483 1613   [           main] DEBUG .dao.IEmpDao.selectEmpsByEmpNo  - ==> Parameters: 7654(Integer)
+2021-06-08 00:42:04,491 1621   [           main] DEBUG .dao.IEmpDao.selectEmpsByEmpNo  - <==      Total: 1
+2021-06-08 00:42:04,491 1621   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@52a70627]
+2021-06-08 00:42:04,492 1622   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@52a70627]
+2021-06-08 00:42:04,492 1622   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1386677799 to pool.
+2021-06-08 00:42:04,501 1631   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:04,501 1631   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:04,501 1631   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:04,501 1631   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:04,515 1645   [      Finalizer] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:04,549 1679   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 00:42:04,568 1698   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 653880197.
+2021-06-08 00:42:04,569 1699   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@26f96b85]
+2021-06-08 00:42:04,569 1699   [           main] DEBUG .IPresidentDao.insertPresident  - ==>  Preparing: INSERT INTO T_USA_PRESIDENT (name, gender, age, brithday, term, party) VALUES (?, ?, ?, ?, ?, ?)
+2021-06-08 00:42:04,571 1701   [           main] DEBUG .IPresidentDao.insertPresident  - ==> Parameters: Donald John Trump(String), male(String), 74(Integer), 1946-06-14 00:00:00.0(Timestamp), 2017.01.20~2021.01.20(String), Republican Party(String)
+2021-06-08 00:42:04,574 1704   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@26f96b85]
+2021-06-08 00:42:04,575 1705   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@26f96b85]
+2021-06-08 00:42:04,575 1705   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@26f96b85]
+2021-06-08 00:42:04,578 1708   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 653880197 to pool.
+2021-06-08 00:42:04,586 1716   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:04,586 1716   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:04,586 1716   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:04,586 1716   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:04,609 1739   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 00:42:04,628 1758   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1557534595.
+2021-06-08 00:42:04,628 1758   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5cd61783]
+2021-06-08 00:42:04,628 1758   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - ==>  Preparing: SELECT * FROM EMP
+2021-06-08 00:42:04,629 1759   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - ==> Parameters: 
+2021-06-08 00:42:04,637 1767   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - <==      Total: 14
+2021-06-08 00:42:04,639 1769   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@5cd61783]
+2021-06-08 00:42:04,640 1770   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5cd61783]
+2021-06-08 00:42:04,640 1770   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1557534595 to pool.
+2021-06-08 00:42:31,321 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-08 00:42:31,349 28     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:31,349 28     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:31,349 28     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:31,349 28     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:42:31,476 155    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 00:42:32,817 1496   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1510087865.
+2021-06-08 00:42:32,817 1496   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:42:32,821 1500   [           main] DEBUG .IPresidentDao.insertPresident  - ==>  Preparing: INSERT INTO T_USA_PRESIDENT (name, gender, age, brithday, term, party) VALUES (?, ?, ?, ?, ?, ?)
+2021-06-08 00:42:32,989 1668   [           main] DEBUG .IPresidentDao.insertPresident  - ==> Parameters: Donald John Trump(String), male(String), 74(Integer), 1946-06-14 00:00:00.0(Timestamp), 2017.01.20~2021.01.20(String), Republican Party(String)
+2021-06-08 00:42:33,002 1681   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:42:33,003 1682   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:42:33,004 1683   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:42:33,004 1683   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1510087865 to pool.
+2021-06-08 00:44:12,043 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-08 00:44:12,072 29     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:44:12,073 30     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:44:12,073 30     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:44:12,073 30     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:44:12,183 140    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 00:44:13,719 1676   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1510087865.
+2021-06-08 00:44:13,720 1677   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:44:13,724 1681   [           main] DEBUG .IPresidentDao.insertPresident  - ==>  Preparing: INSERT INTO T_USA_PRESIDENT (name, gender, age, brithday, term, party) VALUES (?, ?, ?, ?, ?, ?)
+2021-06-08 00:44:13,858 1815   [           main] DEBUG .IPresidentDao.insertPresident  - ==> Parameters: Donald John Trump(String), male(String), 74(Integer), 1946-06-14 00:00:00.0(Timestamp), 2017.01.20~2021.01.20(String), Republican Party(String)
+2021-06-08 00:44:13,880 1837   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:44:13,881 1838   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:44:13,882 1839   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:44:13,883 1840   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1510087865 to pool.
+2021-06-08 00:45:25,153 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-08 00:45:25,177 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:25,177 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:25,177 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:25,177 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:25,294 141    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 00:45:26,495 1342   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 260638966.
+2021-06-08 00:45:26,495 1342   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@f8908f6]
+2021-06-08 00:45:26,499 1346   [           main] DEBUG .dao.IEmpDao.selectEmpsByEName  - ==>  Preparing: SELECT * FROM EMP WHERE ENAME LIKE ?
+2021-06-08 00:45:26,646 1493   [           main] DEBUG .dao.IEmpDao.selectEmpsByEName  - ==> Parameters: %S%(String)
+2021-06-08 00:45:26,726 1573   [           main] DEBUG .dao.IEmpDao.selectEmpsByEName  - <==      Total: 5
+2021-06-08 00:45:26,731 1578   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@f8908f6]
+2021-06-08 00:45:26,732 1579   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@f8908f6]
+2021-06-08 00:45:26,732 1579   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 260638966 to pool.
+2021-06-08 00:45:26,741 1588   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:26,741 1588   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:26,741 1588   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:26,741 1588   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:26,760 1607   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 00:45:26,805 1652   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1386677799.
+2021-06-08 00:45:26,806 1653   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@52a70627]
+2021-06-08 00:45:26,806 1653   [           main] DEBUG .dao.IEmpDao.selectEmpsByEmpNo  - ==>  Preparing: SELECT * FROM EMP WHERE EMPNO = ?
+2021-06-08 00:45:26,807 1654   [           main] DEBUG .dao.IEmpDao.selectEmpsByEmpNo  - ==> Parameters: 7654(Integer)
+2021-06-08 00:45:26,814 1661   [           main] DEBUG .dao.IEmpDao.selectEmpsByEmpNo  - <==      Total: 1
+2021-06-08 00:45:26,814 1661   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@52a70627]
+2021-06-08 00:45:26,814 1661   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@52a70627]
+2021-06-08 00:45:26,814 1661   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1386677799 to pool.
+2021-06-08 00:45:26,820 1667   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:26,820 1667   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:26,820 1667   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:26,820 1667   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:26,831 1678   [      Finalizer] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:26,846 1693   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 00:45:26,872 1719   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 653880197.
+2021-06-08 00:45:26,872 1719   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@26f96b85]
+2021-06-08 00:45:26,872 1719   [           main] DEBUG .IPresidentDao.insertPresident  - ==>  Preparing: INSERT INTO T_USA_PRESIDENT (name, gender, age, brithday, term, party) VALUES (?, ?, ?, ?, ?, ?)
+2021-06-08 00:45:26,873 1720   [           main] DEBUG .IPresidentDao.insertPresident  - ==> Parameters: Donald John Trump(String), male(String), 74(Integer), 1946-06-14 00:00:00.0(Timestamp), 2017.01.20~2021.01.20(String), Republican Party(String)
+2021-06-08 00:45:26,877 1724   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@26f96b85]
+2021-06-08 00:45:26,878 1725   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@26f96b85]
+2021-06-08 00:45:26,878 1725   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@26f96b85]
+2021-06-08 00:45:26,881 1728   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 653880197 to pool.
+2021-06-08 00:45:26,892 1739   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:26,892 1739   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:26,893 1740   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:26,893 1740   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:26,907 1754   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 00:45:26,924 1771   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1557534595.
+2021-06-08 00:45:26,924 1771   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5cd61783]
+2021-06-08 00:45:26,924 1771   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - ==>  Preparing: SELECT * FROM EMP
+2021-06-08 00:45:26,925 1772   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - ==> Parameters: 
+2021-06-08 00:45:26,931 1778   [           main] DEBUG amin.dao.IEmpDao.selectAllEmps  - <==      Total: 14
+2021-06-08 00:45:26,932 1779   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@5cd61783]
+2021-06-08 00:45:26,933 1780   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5cd61783]
+2021-06-08 00:45:26,933 1780   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1557534595 to pool.
+2021-06-08 00:45:40,159 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-08 00:45:40,184 25     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:40,184 25     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:40,185 26     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:40,185 26     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:45:40,300 141    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 00:45:41,747 1588   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1510087865.
+2021-06-08 00:45:41,748 1589   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:45:41,751 1592   [           main] DEBUG .IPresidentDao.insertPresident  - ==>  Preparing: INSERT INTO T_USA_PRESIDENT (name, gender, age, brithday, term, party) VALUES (?, ?, ?, ?, ?, ?)
+2021-06-08 00:45:41,882 1723   [           main] DEBUG .IPresidentDao.insertPresident  - ==> Parameters: Donald John Trump(String), male(String), 74(Integer), 1946-06-14 00:00:00.0(Timestamp), 2017.01.20~2021.01.20(String), Republican Party(String)
+2021-06-08 00:45:41,896 1737   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:45:41,897 1738   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:45:41,897 1738   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:45:41,897 1738   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1510087865 to pool.
+2021-06-08 00:48:47,844 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-08 00:48:47,868 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:48:47,868 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:48:47,868 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:48:47,868 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 00:48:47,975 131    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 00:48:49,339 1495   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1510087865.
+2021-06-08 00:48:49,340 1496   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:48:49,343 1499   [           main] DEBUG .IPresidentDao.insertPresident  - ==>  Preparing: INSERT INTO T_USA_PRESIDENT (name, gender, age, brithday, term, party) VALUES (?, ?, ?, ?, ?, ?)
+2021-06-08 00:48:49,479 1635   [           main] DEBUG .IPresidentDao.insertPresident  - ==> Parameters: Donald John Trump(String), male(String), 74(Integer), 1946-06-14 00:00:00.0(Timestamp), 2017.01.20~2021.01.20(String), Republican Party(String)
+2021-06-08 00:48:49,501 1657   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:48:49,505 1661   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:48:49,506 1662   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 00:48:49,506 1662   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1510087865 to pool.
+2021-06-08 23:01:12,804 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-08 23:01:12,836 32     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 23:01:12,837 33     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 23:01:12,837 33     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 23:01:12,837 33     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 23:01:13,062 258    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 23:01:14,411 1607   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1510087865.
+2021-06-08 23:01:14,411 1607   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 23:01:14,414 1610   [           main] DEBUG .IPresidentDao.insertPresident  - ==>  Preparing: INSERT INTO T_USA_PRESIDENT (name, gender, age, brithday, term, party) VALUES (?, ?, ?, ?, ?, ?)
+2021-06-08 23:01:14,562 1758   [           main] DEBUG .IPresidentDao.insertPresident  - ==> Parameters: Donald John Trump(String), male(String), 74(Integer), 1946-06-14 00:00:00.0(Timestamp), 2017.01.20~2021.01.20(String), Republican Party(String)
+2021-06-08 23:01:14,608 1804   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 23:01:14,611 1807   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 23:01:14,611 1807   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5a021cb9]
+2021-06-08 23:01:14,611 1807   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1510087865 to pool.
+2021-06-08 23:01:40,864 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-08 23:01:40,891 27     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 23:01:40,891 27     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 23:01:40,891 27     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 23:01:40,891 27     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 23:01:41,018 154    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 23:01:42,245 1381   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 962927234.
+2021-06-08 23:01:42,245 1381   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@39651a82]
+2021-06-08 23:01:42,250 1386   [           main] DEBUG .IPresidentDao.insertPresident  - ==>  Preparing: INSERT INTO T_USA_PRESIDENT (name, gender, age, brithday, term, party) VALUES (?, ?, ?, ?, ?, ?)
+2021-06-08 23:01:42,405 1541   [           main] DEBUG .IPresidentDao.insertPresident  - ==> Parameters: Donald John Trump(String), male(String), 74(Integer), 1946-06-14 00:00:00.0(Timestamp), 2017.01.20~2021.01.20(String), Republican Party(String)
+2021-06-08 23:01:42,421 1557   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@39651a82]
+2021-06-08 23:01:42,423 1559   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@39651a82]
+2021-06-08 23:01:42,423 1559   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@39651a82]
+2021-06-08 23:01:42,423 1559   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 962927234 to pool.
+2021-06-08 23:02:42,075 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-08 23:02:42,112 37     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 23:02:42,112 37     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 23:02:42,113 38     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 23:02:42,113 38     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-08 23:02:42,264 189    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-08 23:02:43,615 1540   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 962927234.
+2021-06-08 23:02:43,615 1540   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@39651a82]
+2021-06-08 23:02:43,619 1544   [           main] DEBUG .IPresidentDao.insertPresident  - ==>  Preparing: INSERT INTO T_USA_PRESIDENT (id, name, gender, age, brithday, term, party) VALUES (?, ?, ?, ?, ?, ?, ?)
+2021-06-08 23:02:43,790 1715   [           main] DEBUG .IPresidentDao.insertPresident  - ==> Parameters: 1(Integer), Donald John Trump(String), male(String), 74(Integer), 1946-06-14 00:00:00.0(Timestamp), 2017.01.20~2021.01.20(String), Republican Party(String)
+2021-06-08 23:02:43,806 1731   [           main] DEBUG .IPresidentDao.insertPresident  - <==    Updates: 1
+2021-06-08 23:02:43,806 1731   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@39651a82]
+2021-06-08 23:02:43,807 1732   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@39651a82]
+2021-06-08 23:02:43,808 1733   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@39651a82]
+2021-06-08 23:02:43,808 1733   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 962927234 to pool.
+2021-06-09 23:53:15,616 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-09 23:53:15,653 37     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-09 23:53:15,653 37     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-09 23:53:15,654 38     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-09 23:53:15,654 38     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-09 23:53:15,845 229    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-09 23:53:17,141 1525   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 870019773.
+2021-06-09 23:53:17,142 1526   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@33db72bd]
+2021-06-09 23:53:17,146 1530   [           main] DEBUG IPresidentDao.getAllPresidents  - ==>  Preparing: SELECT * FROM t_usa_president ORDER BY ID
+2021-06-09 23:53:17,296 1680   [           main] DEBUG IPresidentDao.getAllPresidents  - ==> Parameters: 
+2021-06-09 23:53:17,417 1801   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@33db72bd]
+2021-06-09 23:53:17,418 1802   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@33db72bd]
+2021-06-09 23:53:17,418 1802   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 870019773 to pool.
+2021-06-09 23:54:51,798 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-09 23:54:51,836 38     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-09 23:54:51,836 38     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-09 23:54:51,837 39     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-09 23:54:51,837 39     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-09 23:54:51,974 176    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-09 23:54:53,580 1782   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 870019773.
+2021-06-09 23:54:53,580 1782   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@33db72bd]
+2021-06-09 23:54:53,585 1787   [           main] DEBUG IPresidentDao.getAllPresidents  - ==>  Preparing: SELECT * FROM t_usa_president ORDER BY ID
+2021-06-09 23:54:53,732 1934   [           main] DEBUG IPresidentDao.getAllPresidents  - ==> Parameters: 
+2021-06-09 23:54:53,855 2057   [           main] DEBUG IPresidentDao.getAllPresidents  - <==      Total: 2
+2021-06-09 23:54:53,856 2058   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@33db72bd]
+2021-06-09 23:54:53,857 2059   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@33db72bd]
+2021-06-09 23:54:53,857 2059   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 870019773 to pool.

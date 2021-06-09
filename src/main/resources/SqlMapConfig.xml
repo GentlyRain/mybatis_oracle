@@ -28,6 +28,9 @@
 
         <!-- IDeptDao.xml的全包名必须与IDeptDao的全包名一致 -->
         <mapper resource="com/benjamin/dao/IDeptDao.xml"></mapper>
+
+        <!-- IPresidentDao.xml的全包名必须与IPresidentDao的全包名一致 -->
+        <mapper resource="com/benjamin/dao/IPresidentDao.xml"></mapper>
     </mappers>
 </configuration>
 

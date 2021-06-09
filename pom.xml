@@ -40,5 +40,28 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
+            <scope>provided</scope>
+        </dependency>
+
+
     </dependencies>
+
+    <build>
+        <!-- 扫描resources下的所有.xml文件 -->
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>  <!-- 所在目录 -->
+                <includes>                            <!-- 包括目录下的.properties, .xml 文件都会扫描到 -->
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+    </build>
 </project>
