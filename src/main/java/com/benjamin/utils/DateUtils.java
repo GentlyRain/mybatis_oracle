@@ -11,10 +11,8 @@ public class DateUtils {
     public static Date dateStrToDate(String dateStr) {
 
         try {
-
             Date date = Y_M_D.parse(dateStr);
             return date;
-
         } catch (Exception e) {
             e.printStackTrace();
         }

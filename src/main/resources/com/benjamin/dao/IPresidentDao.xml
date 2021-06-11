@@ -13,6 +13,7 @@
         (#{id}, #{name}, #{gender}, #{age}, #{brithday}, #{term}, #{party})
     </insert>
 
+    <!-- 获取所有记录 -->
     <select id="getAllPresidents" resultType="com.benjamin.domain.President">
         SELECT * FROM t_usa_president ORDER BY ID
     </select>
