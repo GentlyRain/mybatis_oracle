@@ -445,3 +445,18 @@
 2021-06-09 23:54:53,856 2058   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@33db72bd]
 2021-06-09 23:54:53,857 2059   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@33db72bd]
 2021-06-09 23:54:53,857 2059   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 870019773 to pool.
+2021-06-26 00:33:16,335 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-26 00:33:16,372 37     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-26 00:33:16,372 37     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-26 00:33:16,372 37     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-26 00:33:16,372 37     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2021-06-26 00:33:16,518 183    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2021-06-26 00:33:18,917 2582   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 603401608.
+2021-06-26 00:33:18,918 2583   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@23f72d88]
+2021-06-26 00:33:18,922 2587   [           main] DEBUG .IPresidentDao.insertPresident  - ==>  Preparing: INSERT INTO T_USA_PRESIDENT (id, name, gender, age, brithday, term, party) VALUES (?, ?, ?, ?, ?, ?, ?)
+2021-06-26 00:33:19,090 2755   [           main] DEBUG .IPresidentDao.insertPresident  - ==> Parameters: 3(Integer), George Walker Bush(String), male(String), 74(Integer), 1946-07-06(String), 2001.01.20~2009.01.20(String), Republican Party(String)
+2021-06-26 00:33:19,119 2784   [           main] DEBUG .IPresidentDao.insertPresident  - <==    Updates: 1
+2021-06-26 00:33:19,120 2785   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@23f72d88]
+2021-06-26 00:33:19,121 2786   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@23f72d88]
+2021-06-26 00:33:19,122 2787   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@23f72d88]
+2021-06-26 00:33:19,122 2787   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 603401608 to pool.

@@ -5,3 +5,4 @@ com\benjamin\domain\President.class
 com\benjamin\dao\IPresidentDao.class
 com\benjamin\domain\Emp.class
 com\benjamin\dao\IDeptDao.class
+com\benjamin\domain\SalGrade.class

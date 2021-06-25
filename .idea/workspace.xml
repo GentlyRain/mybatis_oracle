@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2be3c934-c634-416f-b66e-1803371383ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mybatis_oracle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/benjamin/domain/SalGrade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/benjamin/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/benjamin/utils/DateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/benjamin/dao/IPresidentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/benjamin/dao/IPresidentDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/benjamin/domain/Dept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/benjamin/domain/Dept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/benjamin/domain/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/benjamin/domain/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/benjamin/domain/President.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/benjamin/domain/President.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/benjamin/test/OracleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/benjamin/test/OracleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/benjamin/dao/IDeptDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/benjamin/dao/IEmpDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/benjamin/dao/IPresidentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/benjamin/domain/Dept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/benjamin/domain/Dept.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/benjamin/domain/Emp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/benjamin/domain/Emp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/benjamin/domain/President.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/benjamin/domain/President.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/benjamin/utils/DateUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/benjamin/utils/DateUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.benjamin.test.OracleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.benjamin.test.OracleTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.benjamin.test.OracleTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.benjamin.test.OracleTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/benjamin/test/OracleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/benjamin/test/OracleTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +62,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\Apache\Repository" />
-        <option name="mavenHome" value="D:/Apache/apache-maven-3.6.3" />
+        <option name="mavenHome" value="D:\Apache\apache-maven-3.6.3" />
         <option name="userSettingsFile" value="D:\Apache\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -51,20 +73,20 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com/benjamin/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.postfix.templates" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -75,7 +97,18 @@
       <recent name="D:\IDEA Project\SSM\mybatis_oracle\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OracleTest.testGetAllPresidents">
+  <component name="RunManager" selected="JUnit.OracleTest.testInsertPresident">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OracleTest.testGetAllPresidents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_oracle" />
       <extension name="coverage">
@@ -158,14 +191,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OracleTest.testGetAllPresidents" />
         <item itemvalue="JUnit.OracleTest.testInsertPresident" />
+        <item itemvalue="JUnit.OracleTest.testGetAllPresidents" />
         <item itemvalue="JUnit.OracleTest.testSelectEmpsByEmpNo" />
         <item itemvalue="JUnit.OracleTest.testSelectEmpsByEName" />
         <item itemvalue="JUnit.OracleTest.testSelectAllEmps" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -189,60 +223,13 @@
       <workItem from="1623426963732" duration="40000" />
       <workItem from="1623427148494" duration="3074000" />
       <workItem from="1623430299875" duration="11000" />
+      <workItem from="1623441938708" duration="895000" />
+      <workItem from="1623442960828" duration="29000" />
+      <workItem from="1624631146101" duration="3839000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="361" y="74" key="#Project_Structure" timestamp="1622642044836">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1622642044836" />
-    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1623081426872">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1623081426872" />
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom" timestamp="1623255054271">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623255054271" />
-    <state width="1493" height="236" key="GridCell.Tab.0.center" timestamp="1623255054271">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1623255054271" />
-    <state width="1493" height="236" key="GridCell.Tab.0.left" timestamp="1623255054271">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1623255054271" />
-    <state width="1493" height="236" key="GridCell.Tab.0.right" timestamp="1623255054271">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1623255054271" />
-    <state width="1493" height="236" key="GridCell.Tab.1.bottom" timestamp="1623255054272">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623255054272" />
-    <state width="1493" height="236" key="GridCell.Tab.1.center" timestamp="1623255054271">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1623255054271" />
-    <state width="1493" height="236" key="GridCell.Tab.1.left" timestamp="1623255054271">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1623255054271" />
-    <state width="1493" height="236" key="GridCell.Tab.1.right" timestamp="1623255054271">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="236" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1623255054271" />
-    <state x="272" y="57" key="SettingsEditor" timestamp="1623253963006">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1623253963006" />
-    <state x="174" y="107" key="new project wizard" timestamp="1623426890964">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="174" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1623426890963" />
+    <option name="version" value="3" />
   </component>
 </project>

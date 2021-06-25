@@ -151,14 +151,14 @@ public class OracleTest {
     @Test
     public void testInsertPresident() {
 
-        President president = new President();
-        president.setId(1);
-        president.setName("Donald John Trump");
-        president.setGender("male");
-        president.setBrithday("1946-06-14");
-        president.setAge(74);
-        president.setTerm("2017.01.20~2021.01.20");
-        president.setParty("Republican Party");
+        President president = new President()
+        .setId(3)
+        .setName("George Walker Bush")
+        .setGender("male")
+        .setBrithday("1946-07-06")
+        .setAge(74)
+        .setTerm("2001-01-20~2009-01-20")
+        .setParty("Republican Party");
 
         presidentDao.insertPresident(president);
     }
